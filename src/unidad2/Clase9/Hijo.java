@@ -8,7 +8,7 @@ public class Hijo extends Padre{
     List<String> videoJuegos;
 
     //Constructor de la clase hija
-    //Cuando hay herencia se tienen que poner los atributos requeridos según la clase padre
+    //Cuando hay herencia se tienen que poner los atributos requeridos segun la clase padre
     public Hijo(String nombre, List<String> videoJuegos) {
         //Con 'super' llamamos los atributos del constructor de la clase padre
         super(nombre);

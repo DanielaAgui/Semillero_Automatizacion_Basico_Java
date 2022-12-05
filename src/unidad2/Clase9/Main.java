@@ -13,18 +13,18 @@ public class Main {
 
         Carro mazda = new Carro("Mazda", 2005);
         mazda.color = "Rojo";
-        //Uso de m�todos
+        //Uso de metodos
         mazda.describirCarro();
 
         System.out.println("----------------------");
 
-        //En los objetos de clase padre NO podemos usar los m�todos de la clase hija
+        //En los objetos de clase padre NO podemos usar los metodos de la clase hija
         Padre padre = new Padre("Pepe");
         padre.edad = 36;
 
         Hijo hijo = new Hijo("Juan", Arrays.asList("Crash", "Smack down"));
         hijo.edad = 12;
-        //En el objeto de la clase hija podemos usar los m�todos de la clase padre
+        //En el objeto de la clase hija podemos usar los metodos de la clase padre
         hijo.decirNombre();
         hijo.decirVideoJuegos();
     }
