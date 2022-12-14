@@ -1,8 +1,7 @@
 package unidad2.Clase10.abstraccion;
 
-import java.lang.reflect.MalformedParameterizedTypeException;
-
 public class Cuadrado extends FigurasGeometricas{
+
     private int lado;
 
     public Cuadrado(int lado) {

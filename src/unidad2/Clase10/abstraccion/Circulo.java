@@ -1,6 +1,7 @@
 package unidad2.Clase10.abstraccion;
 
 public class Circulo implements Perimetro{
+
     int radio;
 
     public Circulo(int radio) {

@@ -21,7 +21,7 @@ public class CicloSwitch {
 
         String dia = "lunes";
 
-        switch(dia) {
+        switch (dia) {
             case "lunes":
             case "martes":
             case "miercoles":
